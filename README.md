@@ -1,14 +1,14 @@
-homebrew-sphinx versin 0.9.9 
+homebrew-sphinx versin 0.9.9
 ===============
 
-```bash 
-$ brew tap rnaveiras/sphinx 
+```bash
+$ brew tap fa-rodrigouroz/sphinx
 
-$ brew install rnaveiras/sphinx/sphinx
+$ brew install fa-rodrigouroz/sphinx/sphinx
 $ brew pin sphinx
 ```
 
-```bash 
+```bash
 $ brew install https://raw.github.com/rnaveiras/homebrew-sphinx/master/sphinx.rb
 $ brew pin sphinx
 ```
