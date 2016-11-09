@@ -37,6 +37,10 @@ class Sphinx < Formula
       system "cp -r . #{buildpath}/libstemmer_c/ "
     end
 
+    # libstemmer changed the name of the non-UTF8 Hungarian source files
+    # but the released version of sphinx still refers to it under the old name
+    inreplace "#{buildpath}/libstemmer_c/Makefile.in", "stem_ISO_8859_1_hungarian", "stem_ISO_8859_2_hungarian"
+
     args = ["--prefix=#{prefix}",
             "--disable-debug",
             "--disable-dependency-tracking",
