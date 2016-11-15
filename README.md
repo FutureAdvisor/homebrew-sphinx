@@ -2,8 +2,8 @@ homebrew-sphinx versin 0.9.9
 ===============
 
 ```bash
-$ brew tap fa-rodrigouroz/sphinx
+$ brew tap FutureAdvisor/sphinx
 
-$ brew install fa-rodrigouroz/sphinx/sphinx
+$ brew install FutureAdvisor/sphinx/sphinx
 $ brew pin sphinx
 ```
